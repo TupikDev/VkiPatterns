@@ -7,10 +7,10 @@ using VkiPetterns.config;
 
 namespace VkiPetterns.example
 {
-    internal class Class1 : Runnable{
+    internal class Class2 : Runnable{
 
         public void run(){
-            Console.WriteLine("Задача 1");
+            Console.WriteLine("задача 2");
         }
     }
 }
