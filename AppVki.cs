@@ -1,8 +1,11 @@
 ﻿using VkiPetterns.config;
+using VkiPetterns.tasks.factory_method;
 
 internal class AppVki{
     public static void Main(string[] args){
-        Runnable task = new Class2();
+        LoggerConfig.configure();
+
+        Runnable task = new AppFactoryMethod();
         task.run();
     }
 }
